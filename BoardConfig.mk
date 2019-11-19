@@ -63,6 +63,7 @@ BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100 --board recovery:0
 
+BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 TARGET_PREBUILT_KERNEL := device/htc/ocn/prebuilt/Image.lz4-dtb
 
 #TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
